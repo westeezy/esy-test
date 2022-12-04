@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "esy b dune exec ./main.exe",
+    "format": "esy dune build @fmt --auto-promote"
+  },
+  "dependencies": {
+    "ocaml": "4.10.x",
+    "@opam/dune": "*",
+    "@opam/core": "*"
+  }
+}
